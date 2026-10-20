@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Opportunities</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 30px 16px;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #222;
+    }
+
+    .job-card {
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 24px;
+      background: white;
+      border: 1px solid #e1e5e9;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    }
+
+    .job-label {
+      display: inline-block;
+      padding: 6px 10px;
+      background: #e8f5e9;
+      color: #216e39;
+      border-radius: 5px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    h1 {
+      margin: 16px 0 10px;
+      font-size: 25px;
+    }
+
+    .location {
+      color: #5c6670;
+      font-size: 15px;
+    }
+
+    .details {
+      margin: 22px 0;
+      padding: 16px 0;
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+      line-height: 2;
+      font-size: 14px;
+    }
+
+    .description {
+      color: #4b5563;
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    .job-button {
+      display: block;
+      margin-top: 22px;
+      padding: 14px;
+      background: #2557a7;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 7px;
+    }
+
+    .job-button:hover {
+      background: #194580;
+    }
+
+    .footer {
+      margin-top: 18px;
+      color: #777;
+      font-size: 12px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="job-card">
+    <span class="job-label">NOW HIRING</span>
+
+    <h1>Job Title Goes Here</h1>
+
+    <p class="location">📍 Your State, United States</p>
+
+    <div class="details">
+      <div><strong>Job Type:</strong> Full-time</div>
+      <div><strong>Salary:</strong> See job details</div>
+      <div><strong>Work Location:</strong> On-site</div>
+      <div><strong>Posted:</strong> Recently</div>
+    </div>
+
+    <p class="description">
+      We are looking for a dependable and motivated candidate
+      to join our team. Review the full job description and
+      requirements by clicking the button below.
+    </p>
+
+    <a class="job-button"
+       href="https://example.com"
+       target="_blank"
+       rel="noopener noreferrer">
+      View Job Details →
+    </a>
+
+    <div class="footer">
+      Please review the full job description before applying.
+    </div>
+  </div>
+
+</body>
+</html>
